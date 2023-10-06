@@ -1,0 +1,58 @@
+#include<iostream>
+using namespace std;
+//how to use do while loop
+int main()
+{
+  int password;
+  do
+  {
+    cin>>password;
+    
+  }while(password<999999);
+  cout<<"Entered password is correct";
+}
+//infinte loop using while loop
+int main()
+{
+  while(1)
+  {
+    cout<<"cipherschools";
+  }
+}
+//how to break infinite loop
+int main()
+{
+  int count=0;
+  while(1)
+  {
+    cout<<"cipherschools";
+    ++count;
+    if(count==100)
+    {
+      cout<<"you have reached the breaking point"<<endl;
+      break;
+    }
+  }
+}
+//infinite loop using for loop
+int main()
+{
+  for(int i=0; ; i++)
+  {
+    cout<<i<<endl;
+  }
+}
+//how to break infinite loop using for loop
+int main()
+{  
+  for(int i=0; ; i++)
+  {
+    cout<<i<<endl;
+  }
+  if(i==100)
+  {
+    cout<<"you have the reached the breaking point"<<endl;
+    break;
+  }
+}
+
